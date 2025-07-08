@@ -334,6 +334,7 @@ header {
   justify-content: center;
   align-items: center;
   min-width: 0;
+  position: relative;
 }
 
 .image-in-about-our-story-section img {
@@ -349,7 +350,164 @@ header {
   word-wrap: break-word;
   transition: all 0.3s ease;
 }
+.overall-google-rating-div-in-about-our-story {
+  position: absolute;
+  top: 80%;
+  right: 50%;
+  background-color: rgba(150, 150, 150, 0.13);
+  padding: 0.4rem;
+}
+.div-for-google-rating-stars i {
+  color: gold;
+}
+.div-for-google-rating-text {
+  display: flex;
+  gap: 0.4rem;
+  margin-top: 0.3rem;
+  font-weight: 600;
+}
+.vertical-ruler-on-google-rating {
+  background-color: white;
+  height: 20px;
+  width: 1px;
+}
+/* ABOUT OUR STORY */
+/*GOT QUESTIONS?*/
+#Got_Questions {
+  padding: 1.5rem; /* more breathing room */
+  background-color: #f9f9f9; /* optional */
+  padding-left: 9rem;
+}
 
+.overall-div-for-got-questions-article {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.div-for-image-in-got-questions-article img {
+  border-radius: 10px;
+  transform: skew(7deg);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.questions-div-on-got-questions-article {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.why-choose-us {
+  text-decoration: underline;
+  color: rgb(7, 131, 7);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+.main-heading-for-got-questions p {
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 70%;
+}
+
+.div-questions-in-got-question-article {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 50%;
+}
+
+.actual-questions-in-got-questions-article {
+  border-bottom: 1px solid gray;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.questions-heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+/*GOT QUESTIONS?*/
+/*TIPS AND INSIGHTS*/
+#tips_and_insights {
+  padding: 1.5rem;
+  margin-top: 3rem;
+}
+.overall-div-for-tips-and-insights-article {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.headings-for-tips-and-insights-article {
+  display: flex;
+}
+.eexplore-text-on-tips-page {
+  margin-left: auto;
+  width: 40%;
+  margin-top: 0.7rem;
+}
+.div-of-tips-and-insights-cards {
+  display: flex;
+  gap: 1rem;
+}
+.left-tips-heading p {
+  font-size: 2.8rem;
+  font-weight: 600;
+  width: 70%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.eexplore-text-on-tips-page button {
+  padding: 0.3rem;
+  width: 160px;
+  border-radius: 15px;
+  border: 1px solid rgb(7, 131, 7);
+  background-color: transparent;
+  color: rgb(7, 131, 7);
+  margin-top: 0.4rem;
+}
+.eexplore-text-on-tips-page button:hover {
+  cursor: pointer;
+  background-color: rgb(174, 247, 174);
+  transition: al 0.3s ease;
+}
+.individual-card-in-tips-and-insights img {
+  border-radius: 10px;
+}
+.text-in-tips-card h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.text-in-tips-card p {
+  margin-top: 0.2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 90%;
+}
+.read-article-under-tips-cards {
+  color: rgb(7, 131, 7);
+  margin-top: 0.3rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+/*TIPS AND INSIGHTS*/
 /* Mobile devices (up to 767px) */
 @media screen and (max-width: 767px) {
   /* ABOVE NAVBAR */
@@ -438,6 +596,92 @@ header {
   }
   #Companies-used {
     margin-top: 38rem;
+  }
+  .Overall-div-for-about_our_story-article {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 0.5rem;
+    gap: 1rem;
+    margin-left: 0;
+  }
+
+  .text-in-about-our-story-article {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .about-our-story-heading p {
+    font-size: 1.8rem;
+    width: 100%;
+  }
+
+  .secondary-text-about-our-story {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .first-buttons-in-text-section-of-about-our-story-article {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .free-quote-button-in-about-our,
+  .telephone-number-button-in-about-our {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .second-set-of-buttons-alone {
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  .our-mission-button,
+  .our-vission-button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .arrow-up-button {
+    margin-left: 0;
+  }
+
+  .image-in-about-our-story-section {
+    width: 100%;
+  }
+
+  .image-in-about-our-story-section img {
+    width: 100%;
+    height: auto;
+  }
+
+  #mission_and_vision_text {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+  #Got_Questions {
+    padding: 1.5rem;
+
+    padding-left: 0rem;
+  }
+  .div-questions-in-got-question-article {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 0.4rem;
+  }
+  .main-heading-for-got-questions p {
+    width: 100%;
+    text-align: center;
+  }
+  .overall-google-rating-div-in-about-our-story {
+    top: 70%;
+    right: 35%;
   }
 }
 
