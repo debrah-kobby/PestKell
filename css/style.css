@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  touch-action: pan-y;
+}
 img {
   display: block;
   max-width: 100%;
@@ -534,7 +537,7 @@ header {
   font-weight: 700;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    text-align: center;
+  text-align: center;
 }
 .secondary-hedaing-for-caontact-page p {
   width: 70%;
