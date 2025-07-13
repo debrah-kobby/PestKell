@@ -19,6 +19,9 @@ button,
 textarea {
   font: inherit;
 }
+button:disabled {
+  cursor: not-allowed;
+}
 /*/
 /RESET*/
 /*/ABOVE NAVBAR*/
@@ -468,6 +471,8 @@ header {
 .div-of-tips-and-insights-cards {
   display: flex;
   gap: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 .left-tips-heading p {
   font-size: 2.8rem;
@@ -830,31 +835,6 @@ textarea:focus {
 
 /* Tablet devices (768px to 1023px) */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* ABOVE NAVBAR */
-  .div-of-items-above-main-nav {
-    padding: 0.7rem 1rem;
-  }
-  .div-of-number-and-location-above-navbar {
-    gap: 1.5rem;
-  }
-  .PestKell-Logo-on-top-of-nav-bar,
-  .div-of-number-and-location-above-navbar {
-    font-size: 1.1rem;
-  }
-
-  /* NAVBAR */
-  .overall-div-of-navbar {
-    padding: 0.5rem 1rem;
-  }
-  .div-of-navbar-links ul {
-    gap: 1.5rem;
-    font-size: 1.2rem;
-  }
-  .div-of-button-on-navbar button {
-    font-size: 1rem;
-    padding: 0.35rem;
-  }
-
   /* HOMEPAGE */
   #homepage {
     height: 70vh;
@@ -877,5 +857,31 @@ textarea:focus {
   .telephone-number-hero-button button {
     width: 140px;
     font-size: 1rem;
+  }
+  .hero-box-with-services {
+    left: 3%;
+    width: 730px;
+  }
+  .div-questions-in-got-question-article {
+    width: 90%;
+  }
+  .main-heading-for-got-questions p {
+    width: 100%;
+  }
+  .overall-google-rating-div-in-about-our-story {
+    top: 70%;
+    right: 40%;
+  }
+  .overall-div-for-contact-section {
+    width: 750px;
+  }
+  .image-on-contact-page img {
+    width: 500px;
+  }
+  .image-on-contact-page {
+    margin: 0 auto;
+  }
+  .contact-form {
+    margin: 0 auto;
   }
 }
