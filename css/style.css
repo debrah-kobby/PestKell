@@ -19,9 +19,7 @@ button,
 textarea {
   font: inherit;
 }
-button:disabled {
-  cursor: not-allowed;
-}
+
 /*/
 /RESET*/
 /*/ABOVE NAVBAR*/
